@@ -1,0 +1,29 @@
+score = int(input("what is your score?\n"))
+Names = ["A", "B", "C", "D", "E", "F"]
+if score > 100:
+    print('OOps! invalid entry')
+if score >= 70 < 100:
+    print(f'you scored {Names[0]}')
+elif score >= 60 <= 69:
+    print(f'you scored {Names[1]}')
+elif score >= 50 <= 59:
+    print(f'you scored {Names[2]}')
+elif score >= 45 <= 49:
+    print(f'you scored {Names[3]}')
+elif score >= 40 <= 44:
+    print(f'you scored {Names[4]}')
+else:
+    print(f'you scored {Names[5]}')
+age = int(input("how old are you?"))
+if age <= 2:
+    print("you are a baby")
+elif age == 2 <= 4:
+    print("you are a toddler")
+elif age == 4 <= 13:
+    print('you are a kid')
+elif age == 13 <= 20:
+    print("yor are a teenager")
+elif age == 20 <= 65:
+    print("your are an adult")
+else:
+    print("you are an elder")
