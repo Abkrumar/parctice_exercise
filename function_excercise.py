@@ -44,9 +44,37 @@ T_shirt(Size="35", message="Better by far")
 
 # using return
 
+
 def retur(good, bad):
     """retun full neatly"""
-    do= f"{good}and {bad}"
+    do = f"{good}and {bad}"
     return do
-message= ("charity", "stealing")
+
+
+message = ("charity", "stealing")
 print(message)
+
+
+def name(first, last,):
+    Auwal = {"city": first, "country": last, }
+    return Auwal
+
+
+mmen = name("Satiago", "chile",)
+print(mmen)
+
+
+while True:
+    user_input = input("input the artist and album name:\n")
+    data_1 = "Ala" or "Kwairo"
+
+    def make_albun(artist_name, album_title, non=""):
+        info = {"artist": artist_name, "ablum": album_title, "none": non}
+        if user_input == data_1:
+            print("take your result")
+            return info
+    do = make_albun("Ala", "Jamia", "10 number of sons")
+    print(do)
+    if user_input == "Exit":
+        print("Good bye!!!")
+        break
