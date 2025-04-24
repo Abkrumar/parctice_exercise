@@ -78,3 +78,12 @@ while True:
     if user_input == "Exit":
         print("Good bye!!!")
         break
+
+printin_model = ["form 1", "form 2", "form 3", "fprm 4"]
+current_printed = []
+while printin_model:
+    for printing in printin_model:  
+        print(f"printin mode{printin_model}")
+    completed = printin_model.pop()
+    current_printed.append(completed)
+    print(f'completed {current_printed}')
